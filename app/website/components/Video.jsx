@@ -8,7 +8,7 @@ const Videodev = () => {
         muted
         playsInline
       >
-        <source src="/assets/video/dev.mp4" type="video/mp4" />
+        <source src="/incode/assets/video/dev.mp4" type="video/mp4"/>
         Tu navegador no soporta el video.
       </video>
     </section>

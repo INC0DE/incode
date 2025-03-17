@@ -8,7 +8,7 @@ const VideoLoop = () => {
         muted
         playsInline
       >
-        <source src="/assets/video/loop.mp4" type="video/mp4" />
+        <source src="/incode/assets/video/loop.mp4" type="video/mp4" />
         Tu navegador no soporta el video.
       </video>
 

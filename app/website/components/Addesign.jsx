@@ -7,10 +7,11 @@ const Addesign = () => {
     <section className="flex flex-col-reverse items-center bg-whitelight justify-center overflow-hidden xl:flex-row lg:h-96 ">
       <div className="h-full w-full sm:w-full sm:h-80 xl:h-full xl:w-1/2">
         <Image
-          src="/assets/add.jpg"
+          src="/incode/assets/add.jpg"
           alt="Modernidad y esencia"
           width={1000}
           height={1000}
+          unoptimized={true}
         />
       </div>
 

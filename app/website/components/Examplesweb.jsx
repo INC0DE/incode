@@ -3,23 +3,23 @@ import Image from "next/image";
 
 const items = [
   {
-    src: "/assets/corporativas.jpg",
+    src: "/incode/assets/corporativas.jpg",
     title: "Landing-Pages",
   },
   {
-    src: "/assets/e-commerce.jpeg",
+    src: "/incode/assets/e-commerce.jpeg",
     title: "E-Commerce",
   },
   {
-    src: "/assets/blog.jpg",
+    src: "/incode/assets/blog.jpg",
     title: "Blog",
   },
   {
-    src: "/assets/menu.jpg",
+    src: "/incode/assets/menu.jpg",
     title: "Menú",
   },
   {
-    src: "/assets/portfolio.jpg",
+    src: "/incode/assets/portfolio.jpg",
     title: "Portafolio",
   },
 ];
@@ -47,6 +47,7 @@ const Examplesweb = () => {
                 width={500}
                 height={300}
                 className="rounded-lg shadow-lg w-[500px] h-[300px]"
+                unoptimized={true}
               />
               <p className="mt-4 text-xl font-semibold">{item.title}</p>
             </div>

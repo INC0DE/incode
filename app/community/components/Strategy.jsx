@@ -9,19 +9,19 @@ const data = [
     title: "Brand Manager.",
     description:
       "Supervisa la identidad y reputación de tu marca en todos los canales.",
-    image: "/assets/corporativas.jpg",
+    image: "/incode/assets/corporativas.jpg",
   },
   {
     title: "Digital Marketing Specialist.",
     description:
       "Nos encargamos de gestionar las  campañas publicitarias en tus redes sociales  y llegar a mas audiencia, generando trafico y leads frios.",
-    image: "/assets/corporativas.jpg",
+    image: "/incode/assets/corporativas.jpg",
   },
   {
     title: "Social Media Manager.",
     description:
       "Diseñamos  las estrategias globales de tu marca para tener un balance entre la conversión y conexión de marca en redes sociales.",
-    image: "/assets/corporativas.jpg",
+    image: "/incode/assets/corporativas.jpg",
   },
 ];
 
@@ -60,6 +60,7 @@ const Strategy = () => {
                 layout="fill"
                 objectFit="cover"
                 className="transition-all duration-500"
+                unoptimized={true}
               />
             </div>
             <div className="p-4 sm:p-6">

@@ -4,6 +4,6 @@ export default {
   images: {
     unoptimized: true, // Deshabilita la optimización de imágenes (necesario para GitHub Pages)
   },
-  basePath: "/<REPO_NAME>", // Reemplaza con el nombre de tu repositorio
-  assetPrefix: "/<REPO_NAME>/", // Ajusta las rutas de los assets
+  basePath: "/incode", // Reemplaza con el nombre de tu repositorio
+  assetPrefix: "/incode/", // Ajusta las rutas de los assets
 };
