@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "type": "module",
     "dev": "next dev",
     "start": "next start",
     "lint": "next lint",
-    "build": "next build",
-    "deploy": "next build && touch out/.nojekyll && gh-pages -d out"
+    "build": "next build"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
