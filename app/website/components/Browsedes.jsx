@@ -40,7 +40,7 @@ const Browsedes = () => {
   const [selected, setSelected] = useState(items[0]);
   return (
     <section>
-      <div className="flex flex-col h-44 px-5 justify-center bg-whitelight items-center space-y-5 md:px-20 md:h-56 ">
+      <div className="flex flex-col h-44 px-5 justify-center bg-whitelight items-center space-y-5 md:px-20 md:h-56 xl:px-72 ">
         <h1 className="text-3xl sm:text-5xl lg:text-6xl text-gray self-start ">¿Por que tener</h1>
         <h1 className="text-3xl sm:text-5xl lg:text-6xl self-end ">un diseño web unico? </h1>
       </div>

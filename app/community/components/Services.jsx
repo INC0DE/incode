@@ -1,6 +1,5 @@
 import { Card, CardBody } from "@heroui/card";
 import Image from "next/image";
-import { tablet } from "@/public/assets";
 
 const items = [
   {

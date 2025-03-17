@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { design } from "@/public/assets";
 
 const Webdesign = () => {
   return (
