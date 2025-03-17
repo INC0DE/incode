@@ -43,7 +43,7 @@ const Services = () => {
         </div>
 
         <div className="content-end">
-          <Image src={tablet} alt="image" width={1000} height={1000} />
+          <Image src="/assets/tablet.png" alt="image" width={1000} height={1000} />
         </div>
       </div>
 

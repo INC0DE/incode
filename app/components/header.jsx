@@ -37,7 +37,7 @@ export default function Header() {
 
       <NavbarBrand>
         <Link href="/">
-          <Image src="/incodelogo.png" alt="incode" width={80} height={40} />
+          <Image src="/incodelogo.png" alt="incode" width={80} height={40}  priority/>
         </Link>
       </NavbarBrand>
 

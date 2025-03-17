@@ -40,11 +40,11 @@ const Browsedev = () => {
   const [selected, setSelected] = useState(items[0]);
   return (
     <section>
-      <div className="flex flex-col h-44 md:h-56 bg-whitelight justify-center items-center space-y-5">
-        <h1 className="text-2xl sm:text-5xl lg:text-7xl text-gray lg:mr-32">
+      <div className="flex flex-col h-44 px-5 bg-whitelight justify-center items-center space-y-5 md:px-20 md:h-56">
+        <h1 className="text-3xl sm:text-5xl lg:text-7xl text-gray">
           ¿Por que tener
         </h1>
-        <h1 className="text-3xl sm:text-3xl lg:text-5xl lg:ml-32">
+        <h1 className="text-3xl sm:text-5xl lg:text-7xl">
           una website en codigo ?
         </h1>
       </div>

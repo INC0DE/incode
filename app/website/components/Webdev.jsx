@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { add, webdev } from "@/public/assets";
+
 const Webdev = () => {
   return (
     <section className="border-t-2">
@@ -9,7 +9,7 @@ const Webdev = () => {
         <h1 className="text-6xl lg:text-7xl">Web.</h1>
       </div>
       <div className="">
-        <Image src={webdev} alt="webdev" />
+        <Image src="/assets/webdev.jpeg" alt="webdev" width={2000} height={1000} />
       </div>
     </section>
   );

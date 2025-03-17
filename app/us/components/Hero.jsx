@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { deskhero } from "../../../public/assets";
 
 const Hero = () => {
   return (
@@ -10,7 +9,7 @@ const Hero = () => {
       </div>
       <div className="relative h-full self-end lg:w-2/3">
         <div>
-          <Image src={deskhero} alt="computer" width={1000} height={1000} />
+          <Image src="/assets/deskhero.png" alt="computer" width={1000} height={1000} />
         </div>
 
         <div className="absolute inset-0 content-center justify-items-start pl-10 ">

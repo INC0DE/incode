@@ -1,7 +1,6 @@
 import { Button } from "@heroui/button";
 import { Link } from "@heroui/link";
 import Image from "next/image";
-import { deskdev, phonemark } from "../../../public/assets";
 
 const Services = () => {
   return (
@@ -32,7 +31,7 @@ const Services = () => {
           </div>
 
           <div className="justify-self-end">
-            <Image src={deskdev} alt="computer" width={600} height={600} />
+            <Image src="/assets/deskdev.png" alt="computer" width={600} height={600} />
           </div>
         </div>
 
@@ -56,7 +55,7 @@ const Services = () => {
           </div>
 
           <div className="justify-self-end">
-            <Image src={phonemark} alt="computer" width={600} height={600} />
+            <Image src="/assets/phonemark.png" alt="computer" width={600} height={600} />
           </div>
         </div>
       </div>

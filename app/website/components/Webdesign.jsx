@@ -10,7 +10,7 @@ const Webdesign = () => {
       </div>
 
       <div className="md:w-2/3">
-        <Image src={design} alt="design" />
+        <Image src="/assets/design.jpg" alt="design" width={1100} height={1000}/>
       </div>
     </section>
   );

@@ -1,7 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { phones } from "@/public/assets";
 
 const Hero = () => {
   return (
@@ -17,7 +16,7 @@ const Hero = () => {
       </div>
 
       <div className="relative lg:w-1/2">
-        <Image src={phones} alt="hero" width={800} height={800} />
+        <Image src="/assets/phones.png" alt="hero" width={800} height={800}  priority />
       </div>
     </div>
   );

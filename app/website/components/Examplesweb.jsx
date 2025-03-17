@@ -1,38 +1,36 @@
 import React from "react";
 import Image from "next/image";
-import { blog, ecommerce, corporativo, menu, portfolio } from "@/public/assets";
 
 const items = [
   {
-    src: corporativo,
+    src: "/assets/corporativas.jpg",
     title: "Landing-Pages",
   },
   {
-    src: ecommerce,
+    src: "/assets/e-commerce.jpeg",
     title: "E-Commerce",
   },
   {
-    src: blog,
+    src: "/assets/blog.jpg",
     title: "Blog",
   },
-
   {
-    src: menu,
+    src: "/assets/menu.jpg",
     title: "Menú",
   },
   {
-    src: portfolio,
+    src: "/assets/portfolio.jpg",
     title: "Portafolio",
   },
 ];
 
 const Examplesweb = () => {
   return (
-    <section className="min-h-screen bg-whitelight ">
+    <section className="min-h-screen flex flex-col justify-center bg-whitelight ">
       <div className="flex flex-col h-56 justify-center items-center space-y-5">
         <h1 className="text-5xl lg:text-7xl text-gray md:mr-32">¿Qué página</h1>
-        <h1 className="text-3xl lg:text-5xl md:ml-32">
-          buscas para tu negocio?{" "}
+        <h1 className="text-2xl sm:text-4xl lg:text-5xl md:ml-32">
+          buscas para tu negocio?
         </h1>
       </div>
 
@@ -46,11 +44,11 @@ const Examplesweb = () => {
               <Image
                 src={item.src}
                 alt={item.title}
+                width={500}
+                height={300}
                 className="rounded-lg shadow-lg w-[500px] h-[300px]"
               />
-              <p className="mt-4 text-xl font-semibold">
-                {item.title}
-              </p>
+              <p className="mt-4 text-xl font-semibold">{item.title}</p>
             </div>
           ))}
         </div>

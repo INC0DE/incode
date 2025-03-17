@@ -1,9 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Card, CardBody } from "@heroui/card";
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/solid";
-import { add } from "@/public/assets";
 import Image from "next/image";
 
 const data = [
@@ -11,19 +9,19 @@ const data = [
     title: "Brand Manager.",
     description:
       "Supervisa la identidad y reputación de tu marca en todos los canales.",
-    image: add,
+    image: "/assets/corporativas.jpg",
   },
   {
     title: "Digital Marketing Specialist.",
     description:
       "Nos encargamos de gestionar las  campañas publicitarias en tus redes sociales  y llegar a mas audiencia, generando trafico y leads frios.",
-    image: add,
+    image: "/assets/corporativas.jpg",
   },
   {
     title: "Social Media Manager.",
     description:
       "Diseñamos  las estrategias globales de tu marca para tener un balance entre la conversión y conexión de marca en redes sociales.",
-    image: add,
+    image: "/assets/corporativas.jpg",
   },
 ];
 
@@ -54,7 +52,6 @@ const Strategy = () => {
 
       <div className="h-auto flex justify-center items-center py-6 px-4">
         <div className="relative w-full max-w-lg sm:max-w-xl md:max-w-2xl lg:max-w-4xl mx-auto">
-          {/* Card de Hero UI más grande y responsiva */}
           <div className="bg-white shadow-xl rounded-2xl overflow-hidden">
             <div className="relative w-full h-56 sm:h-64 md:h-72 lg:h-80">
               <Image

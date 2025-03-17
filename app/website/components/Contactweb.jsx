@@ -5,9 +5,9 @@ import FormAll from "../../components/form";
 const Contactweb = () => {
   return (
     <div className="min-h-screen p-10">
-      <div className="flex flex-col items-center h-52">
-        <h1 className="text-4xl text-gray">¿Quieres tu</h1>
-        <h1 className="text-4xl md:text-7xl">página personalizada?</h1>
+      <div className="flex flex-col items-center justify-center h-52">
+        <h1 className="text-4xl md:text-5xl text-gray">¿Quieres tu</h1>
+        <h1 className="text-3xl md:text-7xl">página personalizada?</h1>
       </div>
 
       <div className="flex justify-center">
