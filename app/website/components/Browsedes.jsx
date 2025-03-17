@@ -1,0 +1,81 @@
+"use client";
+
+import { useState } from "react";
+import { motion } from "framer-motion";
+
+const items = [
+  {
+    id: 1,
+    title: "Experiencia de usuario",
+    content:
+      "Diseño web bien estructurado hace que la navegación sea intuitiva, mejorando la satisfacción del usuario y aumentando el tiempo de permanencia en la página.",
+  },
+  {
+    id: 2,
+    title: "Mayor conversion y ventas",
+    content:
+      "En un e-commerce, un diseño atractivo y funcional puede aumentar las conversiones, ya que facilita la compra y genera confianza.",
+  },
+  {
+    id: 3,
+    title: "Mejora el SEO",
+    content:
+      "Google premia los sitios bien diseñados con buena velocidad, estructura optimizada y experiencia de usuario, lo que mejora el posicionamiento en buscadores.",
+  },
+  {
+    id: 4,
+    title: "Identidad de marca",
+    content:
+      "Un diseño coherente con tu branding (colores, tipografía, imágenes) ayuda a que los usuarios te reconozcan y confíen más en tu marca.",
+  },
+  {
+    id: 5,
+    title: "Diferenciacion a la competencia",
+    content:
+      "Un sitio bien diseñado destaca y transmite profesionalismo, lo que te ayuda a sobresalir en un mercado competitivo.",
+  },
+];
+
+const Browsedes = () => {
+  const [selected, setSelected] = useState(items[0]);
+  return (
+    <section>
+      <div className="flex flex-col h-44 md:h-56 justify-center bg-whitelight items-center space-y-5">
+        <h1 className="text-3xl sm:text-5xl lg:text-7xl text-gray mr-32">¿Por que tener</h1>
+        <h1 className="text-xl sm:text-3xl lg:text-5xl ml-32">un diseño web unico? </h1>
+      </div>
+
+      <div className="h-screen gap-24 bg-black flex flex-col-reverse items-center p-6  justify-center md:h-96 lg:flex-row  lg:p-12 lg:gap-6">
+        <motion.div
+          key={selected.id}
+          className="flex-2 w-full lg:w-1/2 flex items-center justify-center"
+          initial={{ opacity: 0, x: -50 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.4 }}
+        >
+          <motion.div className="text-xl w-full h-full text-white text-center md:text-left md:text-2xl lg:text-3xl">
+            {selected.content}
+          </motion.div>
+        </motion.div>
+
+        <div className="w-full lg:w-1/2 flex flex-col gap-2 lg:gap-8">
+          {items.map((item) => (
+            <button
+              key={item.id}
+              onClick={() => setSelected(item)}
+              className={`text-2xl lg:text-4xl transition-all duration-300 ${
+                selected.id === item.id
+                  ? "text-black bg-gold md:px-4 md:py-2 rounded-xl shadow-lg"
+                  : "text-gray hover:text-white"
+              }`}
+            >
+              {item.title}.
+            </button>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Browsedes;
