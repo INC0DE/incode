@@ -9,19 +9,19 @@ const data = [
     title: "Brand Manager.",
     description:
       "Supervisa la identidad y reputación de tu marca en todos los canales.",
-    image: "/incode/assets/corporativas.jpg",
+    image: "/assets/corporativas.jpg",
   },
   {
     title: "Digital Marketing Specialist.",
     description:
       "Nos encargamos de gestionar las  campañas publicitarias en tus redes sociales  y llegar a mas audiencia, generando trafico y leads frios.",
-    image: "/incode/assets/corporativas.jpg",
+    image: "/assets/corporativas.jpg",
   },
   {
     title: "Social Media Manager.",
     description:
       "Diseñamos  las estrategias globales de tu marca para tener un balance entre la conversión y conexión de marca en redes sociales.",
-    image: "/incode/assets/corporativas.jpg",
+    image: "/assets/corporativas.jpg",
   },
 ];
 

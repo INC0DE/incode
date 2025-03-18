@@ -31,7 +31,7 @@ const Services = () => {
           </div>
 
           <div className="justify-self-end">
-            <Image src="/incode/assets/deskdev.png" alt="computer" width={600} height={600} unoptimized={true} />
+            <Image src="/assets/deskdev.png" alt="computer" width={600} height={600} unoptimized={true} />
           </div>
         </div>
 
@@ -55,7 +55,7 @@ const Services = () => {
           </div>
 
           <div className="justify-self-end">
-            <Image src="/incode/assets/phonemark.png" alt="computer" width={600} height={600} unoptimized={true} />
+            <Image src="/assets/phonemark.png" alt="computer" width={600} height={600} unoptimized={true} />
           </div>
         </div>
       </div>

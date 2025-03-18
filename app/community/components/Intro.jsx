@@ -5,7 +5,7 @@ const Intro = () => {
     <div>
       <section className="lg:h-96 flex flex-col-reverse lg:flex-row">
         <div className="w-full pl-32 justify-center content-end lg:pl-0 lg:w-2/5">
-          <Image src="/incode/assets/handphone.png" alt="Hand" width={500} height={1000} unoptimized={true} />
+          <Image src="/assets/handphone.png" alt="Hand" width={500} height={1000} unoptimized={true} />
         </div>
         <div className="space-y-10 content-center p-5 lg:w-3/5 lg:p-0 lg:py-20 lg:space-y-20 ">
           <div className="content-center">

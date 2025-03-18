@@ -17,7 +17,7 @@ const Intro = () => {
         </div>
       </div>
       <div className="aboslute content-end justify-items-end  lg:w-2/5 ">
-        <Image alt="page" src="/incode/assets/pagesdesk.png" width={1000} height={1000} unoptimized={true}/>
+        <Image alt="page" src="/assets/pagesdesk.png" width={1000} height={1000} unoptimized={true}/>
       </div>
     </section>
   );

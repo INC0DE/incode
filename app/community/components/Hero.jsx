@@ -16,7 +16,7 @@ const Hero = () => {
       </div>
 
       <div className="relative lg:w-1/2">
-        <Image src="/incode/assets/phones.png" alt="hero" width={800} height={800}  priority unoptimized={true} />
+        <Image src="/assets/phones.png" alt="hero" width={800} height={800}  priority unoptimized={true} />
       </div>
     </div>
   );

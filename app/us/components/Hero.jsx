@@ -9,7 +9,7 @@ const Hero = () => {
       </div>
       <div className="relative h-full self-end lg:w-2/3">
         <div>
-          <Image src="/incode/assets/deskhero.png" alt="computer" width={1000} height={1000} unoptimized={true}/>
+          <Image src="/assets/deskhero.png" alt="computer" width={1000} height={1000} unoptimized={true}/>
         </div>
 
         <div className="absolute inset-0 content-center justify-items-start pl-10 ">

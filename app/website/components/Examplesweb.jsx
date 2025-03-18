@@ -3,23 +3,23 @@ import Image from "next/image";
 
 const items = [
   {
-    src: "/incode/assets/corporativas.jpg",
+    src: "/assets/corporativas.jpg",
     title: "Landing-Pages",
   },
   {
-    src: "/incode/assets/e-commerce.jpeg",
+    src: "/assets/e-commerce.jpeg",
     title: "E-Commerce",
   },
   {
-    src: "/incode/assets/blog.jpg",
+    src: "/assets/blog.jpg",
     title: "Blog",
   },
   {
-    src: "/incode/assets/menu.jpg",
+    src: "/assets/menu.jpg",
     title: "Menú",
   },
   {
-    src: "/incode/assets/portfolio.jpg",
+    src: "/assets/portfolio.jpg",
     title: "Portafolio",
   },
 ];
