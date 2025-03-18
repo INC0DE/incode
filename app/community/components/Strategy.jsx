@@ -45,8 +45,8 @@ const Strategy = () => {
         <h1 className="text-4xl sm:text-6xl lg:text-8xl text-gold justify-self-center">
           Nuestros Managers
         </h1>
-        <h1 className="text-lg sm:text-xl lg:text-3xl text-gray justify-self-center lg:ml-52 ">
-          Detrás de cada estrategia exitosa.
+        <h1 className="text-lg sm:text-xl lg:text-3xl text-gray justify-self-center">
+        Los responsables detrás de cada estrategia exitosa.
         </h1>
       </div>
 

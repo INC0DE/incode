@@ -8,11 +8,11 @@ const items = [
     id: 1,
     title: "Experiencia de usuario",
     content:
-      "Diseño web bien estructurado hace que la navegación sea intuitiva, mejorando la satisfacción del usuario y aumentando el tiempo de permanencia en la página.",
+      "Un diseño web bien estructurado hace que la navegación sea intuitiva, mejorando la satisfacción del usuario y aumentando el tiempo de permanencia en la página.",
   },
   {
     id: 2,
-    title: "Mayor conversion y ventas",
+    title: "Mayor conversión y ventas",
     content:
       "En un e-commerce, un diseño atractivo y funcional puede aumentar las conversiones, ya que facilita la compra y genera confianza.",
   },
@@ -30,7 +30,7 @@ const items = [
   },
   {
     id: 5,
-    title: "Diferenciacion a la competencia",
+    title: "Diferenciación de la competencia",
     content:
       "Un sitio bien diseñado destaca y transmite profesionalismo, lo que te ayuda a sobresalir en un mercado competitivo.",
   },
@@ -41,8 +41,8 @@ const Browsedes = () => {
   return (
     <section>
       <div className="flex flex-col h-44 px-5 justify-center bg-whitelight items-center space-y-5 md:px-20 md:h-56 xl:px-72 ">
-        <h1 className="text-3xl sm:text-5xl lg:text-6xl text-gray self-start ">¿Por que tener</h1>
-        <h1 className="text-3xl sm:text-5xl lg:text-6xl self-end ">un diseño web unico? </h1>
+        <h1 className="text-3xl sm:text-5xl lg:text-6xl text-gray self-start ">¿Por qué tener</h1>
+        <h1 className="text-3xl sm:text-5xl lg:text-6xl self-end ">un diseño web único? </h1>
       </div>
 
       <div className="h-screen gap-24 bg-black flex flex-col-reverse items-center p-6  justify-center md:h-96 lg:flex-row  lg:p-12 lg:gap-6">

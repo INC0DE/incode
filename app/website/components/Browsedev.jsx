@@ -42,10 +42,10 @@ const Browsedev = () => {
     <section>
       <div className="flex flex-col h-44 px-5 bg-whitelight justify-center items-center space-y-5 md:px-20 md:h-56">
         <h1 className="text-3xl sm:text-5xl lg:text-7xl text-gray">
-          ¿Por que tener
+          ¿Por qué tener
         </h1>
         <h1 className="text-3xl sm:text-5xl lg:text-7xl">
-          una website en codigo ?
+          un website en código?
         </h1>
       </div>
       <div className="h-screen gap-24 bg-black flex flex-col items-center justify-center p-6 md:h-96 lg:flex-row  lg:p-12 lg:gap-6">

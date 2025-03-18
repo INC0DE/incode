@@ -8,11 +8,11 @@ const items = [
     id: 1,
     title: "Gestión de redes sociales",
     content:
-      "Diseño web bien estructurado hace que la navegación sea intuitiva, mejorando la satisfacción del usuario y aumentando el tiempo de permanencia en la página.",
+      "Optimizamos la presencia digital de tu marca con una gestión estratégica de redes sociales. Desde la planificación de contenido hasta la creación de un cronograma mensual de publicaciones, nos aseguramos de que tu mensaje llegue a la audiencia correcta en el momento ideal.",
     incluye: [
-      "Estrategia de contenido",
-      "Monitoreo de redes",
-      "Análisis de datos",
+      "Planificador de contenido.",
+      "Cronograma  mensual de publicaciones.",
+      "Reporte de análisis y estadísticas.",
     ],
   },
   {
@@ -20,43 +20,49 @@ const items = [
     title: "Contenido",
     content:
       "En un e-commerce, un diseño atractivo y funcional puede aumentar las conversiones, ya que facilita la compra y genera confianza.",
-    incluye: ["Creación de posts", "Diseño gráfico", "Edición de videos"],
+    incluye: ["Creación de posts.", "Diseño gráfico.", "Edición de videos."],
   },
   {
     id: 3,
     title: "Moderación",
     content:
-      "Google premia los sitios bien diseñados con buena velocidad, estructura optimizada y experiencia de usuario, lo que mejora el posicionamiento en buscadores.",
+      " Gestionamos la interacción de tu marca con su comunidad, asegurando respuestas oportunas y creando conexiones auténticas. ",
     incluye: [
-      "Gestión de comentarios",
-      "Filtrado de mensajes",
-      "Atención al cliente",
+      "Interacción con comunidad.",
+      "Programación de publicaciones.",
+      "Composición visual.",
     ],
   },
   {
     id: 4,
-    title: "Adds Meta",
+    title: "Ads en Meta",
     content:
-      "Un diseño coherente con tu branding (colores, tipografía, imágenes) ayuda a que los usuarios te reconozcan y confíen más en tu marca.",
+      "Garantizamos el alcance de tu negocio con campañas estratégicas en Meta. Diseñamos anuncios efectivos para generar tráfico, atraer leads y aumentar la interacción a través de campañas de mensajes.",
     incluye: [
-      "Diseñar contenido",
-      "Segmentación de audiencia",
-      "Análisis de rendimiento",
+      "Campañas de mensajes.",
+      "Campañas de tráfico",
+      "Generación de leads.",
+      "Análisis y estadísticas de audiencia.",
     ],
   },
   {
     id: 5,
     title: "Landing Page",
     content:
-      "Un sitio bien diseñado destaca y transmite profesionalismo, lo que te ayuda a sobresalir en un mercado competitivo.",
-    incluye: ["Diseño UX/UI", "Optimización SEO", "Integración con CRM"],
+      "Diseñamos Landing Pages con ayuda de nuestro servicio Website Development, creando páginas optimizadas para convertir visitantes en clientes. Desarrollamos una estrategia de ventas basada en un análisis de mercado detallado, combinando un diseño web atractivo y funcional.",
+    incluye: [
+      "Estrategia de ventas para la página web.",
+      "Análisis de mercado.",
+      "Diseño de página web.",
+      "E-Commerce | Portafolio | blog",
+    ],
   },
   {
     id: 6,
     title: "Copywriting",
     content:
-      "Un sitio bien diseñado destaca y transmite profesionalismo, lo que te ayuda a sobresalir en un mercado competitivo.",
-    incluye: ["Redacción persuasiva", "Storytelling", "SEO copywriting"],
+      "Transformamos ideas en palabras que conectan y convierten. Creando estrategias de escritura persuasiva para las publicaciones y redactamos objetivos, asegurando que cada palabra impulse tu crecimiento.",
+    incluye: ["Estrategias de escritura para las publicaciones.", "Escritura de objetivos."],
   },
 ];
 
@@ -96,8 +102,12 @@ const Browser = () => {
         >
           <div className="w-full h-full space-y-10">
             <div className="space-y-3">
-              <h1 className="text-4xl md:text-5xl text-gold">{selected.title}</h1>
-              <p className="text-lg md:text-xl text-black">{selected.content}</p>
+              <h1 className="text-4xl md:text-5xl text-gold">
+                {selected.title}
+              </h1>
+              <p className="text-lg md:text-xl text-black">
+                {selected.content}
+              </p>
             </div>
 
             {selected.incluye && selected.incluye.length > 0 && (

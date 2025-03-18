@@ -15,7 +15,7 @@ const VideoLoop = () => {
       <div className="absolute inset-0 p-5  self-center space-y-5 lg:p-20">
         <div>
           <h1 className="text-4xl text-gold text-left font-bold  md:text-5xl lg:text-6xl xl:text-8xl">
-            ¿Estas listo para
+            ¿Estás listo para
           </h1>
         </div>
         <div className="flex flex-row space-x-8">
