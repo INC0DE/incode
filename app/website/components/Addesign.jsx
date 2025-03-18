@@ -11,7 +11,6 @@ const Addesign = () => {
           alt="Modernidad y esencia"
           width={1000}
           height={1000}
-          unoptimized={true}
         />
       </div>
 

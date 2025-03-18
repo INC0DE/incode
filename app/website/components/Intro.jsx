@@ -28,7 +28,6 @@ const Intro = () => {
           src="/assets/pagesdesk.png"
           width={1000}
           height={1000}
-          unoptimized={true}
         />
       </div>
     </section>

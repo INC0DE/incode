@@ -21,7 +21,7 @@ const Hero = () => {
         <p className="text-3xl ml-32 text-gold mt-2 xl:ml-8">Servicio.</p>
       </div>
 
-      <div className="w-full h-full relative flex justify-end items-center overflow-hidden md:w-1/2">
+      <div className="w-full h-full ml-3 relative flex justify-end items-center overflow-hidden md:w-1/2">
         <div className="relative w-[100%] h-full overflow-hidden">
           <motion.div
             className="absolute w-full text-xl font-mono leading-2"

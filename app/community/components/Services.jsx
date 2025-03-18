@@ -47,11 +47,10 @@ const Services = () => {
 
         <div className="content-end">
           <Image
-            src="/assets/tablet.png"
+            src="/assets/services.png"
             alt="image"
-            width={1000}
-            height={1000}
-            unoptimized={true}
+            width={500}
+            height={500}
           />
         </div>
       </div>

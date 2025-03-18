@@ -4,7 +4,7 @@ const Intro = () => {
   return (
     <section className="min-h-screen relative flex flex-col-reverse p-5 lg:flex-row lg:h-80 md:px-8 md:p-0 md:pt-5">
       <div className="flex w-full items-end lg:w-1/2 xl:w-2/5">
-        <Image src="/assets/tablet.png" alt="Mockup" width={800} height={800} unoptimized={true}/>
+        <Image src="/assets/tablet.png" alt="Mockup" width={800} height={800}/>
       </div>
 
       <div className="w-full space-y-8 content-center lg:w-1/2 xl:w-3/5">

@@ -45,20 +45,20 @@ const Browsedes = () => {
         <h1 className="text-3xl sm:text-5xl lg:text-6xl self-end ">un diseño web único? </h1>
       </div>
 
-      <div className="h-screen gap-24 bg-black flex flex-col-reverse items-center p-6  justify-center md:h-96 lg:flex-row  lg:p-12 lg:gap-6">
+      <div className="h-screen gap-24 bg-black flex flex-col-reverse items-center justify-center md:h-96 lg:flex-row lg:gap-6">
         <motion.div
           key={selected.id}
-          className="flex-2 w-full lg:w-1/2 flex items-center justify-center"
+          className="flex-2 w-full p-6 lg:w-1/2 bg-white h-full content-center lg:p-12"
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.4 }}
         >
-          <motion.div className="text-xl w-full h-full text-white text-center md:text-left md:text-2xl lg:text-3xl">
+          <motion.div className="text-xl w-full text-center lg:text-left md:text-2xl lg:text-3xl">
             {selected.content}
           </motion.div>
         </motion.div>
 
-        <div className="w-full lg:w-1/2 flex flex-col gap-2 lg:gap-8">
+        <div className="w-full p-6 lg:w-1/2 flex flex-col gap-2 lg:gap-8 lg:p-12">
           {items.map((item) => (
             <button
               key={item.id}

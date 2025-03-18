@@ -47,7 +47,6 @@ const Examplesweb = () => {
                 width={500}
                 height={300}
                 className="rounded-lg shadow-lg w-[500px] h-[300px]"
-                unoptimized={true}
               />
               <p className="mt-4 text-xl font-semibold">{item.title}</p>
             </div>

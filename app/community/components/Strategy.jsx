@@ -6,22 +6,28 @@ import Image from "next/image";
 
 const data = [
   {
+    title: "Content Manager.",
+    description:
+      "Responsable de la planificación y creación de contenido de calidad para blogs, redes y otros medios digitales.",
+    image: "/assets/contentmanager.png",
+  },
+  {
     title: "Brand Manager.",
     description:
       "Supervisa la identidad y reputación de tu marca en todos los canales.",
-    image: "/assets/corporativas.jpg",
+    image: "/assets/branding.png",
   },
   {
     title: "Digital Marketing Specialist.",
     description:
       "Nos encargamos de gestionar las  campañas publicitarias en tus redes sociales  y llegar a mas audiencia, generando trafico y leads frios.",
-    image: "/assets/corporativas.jpg",
+    image: "/assets/digital.png",
   },
   {
     title: "Social Media Manager.",
     description:
       "Diseñamos  las estrategias globales de tu marca para tener un balance entre la conversión y conexión de marca en redes sociales.",
-    image: "/assets/corporativas.jpg",
+    image: "/assets/social.png",
   },
 ];
 
@@ -46,34 +52,37 @@ const Strategy = () => {
           Nuestros Managers
         </h1>
         <h1 className="text-lg sm:text-xl lg:text-3xl text-gray justify-self-center">
-        Los responsables detrás de cada estrategia exitosa.
+          Los responsables detrás de cada estrategia exitosa.
         </h1>
       </div>
 
       <div className="h-auto flex justify-center items-center py-6 px-4">
         <div className="relative w-full max-w-lg sm:max-w-xl md:max-w-2xl lg:max-w-4xl mx-auto">
-          <div className="bg-white shadow-xl rounded-2xl overflow-hidden">
-            <div className="relative w-full h-56 sm:h-64 md:h-72 lg:h-80">
-              <Image
-                src={data[currentIndex].image}
-                alt="Slide"
-                layout="fill"
-                objectFit="cover"
-                className="transition-all duration-500"
-                unoptimized={true}
-              />
-            </div>
-            <div className="p-4 sm:p-6">
-              <h2 className="text-lg sm:text-2xl font-bold text-gold">
-                {data[currentIndex].title}
-              </h2>
-              <p className="text-sm sm:text-lg mt-2">
-                {data[currentIndex].description}
-              </p>
+          <div className="bg-white shadow-xl rounded-2xl overflow-hidden p-4 sm:p-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+              {/* Imagen siempre separada */}
+              <div className="w-full h-56 sm:h-64 md:h-72 lg:h-80">
+                <Image
+                  src={data[currentIndex].image}
+                  alt="Slide"
+                  width={400}
+                  height={400}
+                  className="transition-all duration-500 object-cover w-full h-full rounded-lg"
+                />
+              </div>
+
+              {/* Texto siempre separado */}
+              <div className="w-full flex flex-col justify-center">
+                <h2 className="text-lg sm:text-2xl font-bold text-gold">
+                  {data[currentIndex].title}
+                </h2>
+                <p className="text-sm sm:text-lg mt-2">
+                  {data[currentIndex].description}
+                </p>
+              </div>
             </div>
           </div>
 
-          {/* Botón Izquierda */}
           <button
             onClick={prevSlide}
             className="absolute left-2 sm:left-4 top-1/2 transform -translate-y-1/2 bg-gray p-2 sm:p-3 rounded-full shadow-lg hover:bg-black transition"
@@ -81,7 +90,6 @@ const Strategy = () => {
             <ChevronLeftIcon className="h-6 w-6 sm:h-8 sm:w-8 text-white" />
           </button>
 
-          {/* Botón Derecha */}
           <button
             onClick={nextSlide}
             className="absolute right-2 sm:right-4 top-1/2 transform -translate-y-1/2 bg-gray p-2 sm:p-3 rounded-full shadow-lg hover:bg-black transition"
@@ -89,7 +97,6 @@ const Strategy = () => {
             <ChevronRightIcon className="h-6 w-6 sm:h-8 sm:w-8 text-white" />
           </button>
 
-          {/* Indicadores */}
           <div className="flex justify-center mt-4">
             {data.map((_, index) => (
               <div
