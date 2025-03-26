@@ -9,19 +9,21 @@ import Webdev from "./components/Webdev";
 import Browsedev from "./components/Browsedev";
 import Examplesweb from "./components/Examplesweb";
 import Contactweb from "./components/Contactweb";
+import Proyects from "./components/Proyects";
 
 const PageWebsite = () => {
   return (
-    <div  className="overflow-hidden ">
+    <div className="overflow-hidden ">
       <Hero />
       <Intro />
       <Videodev />
       <Webdesign />
       <Browsedes />
       <Addesign />
+      <Examplesweb />
       <Webdev />
       <Browsedev />
-      <Examplesweb />
+      <Proyects />
       <Contactweb />
     </div>
   );

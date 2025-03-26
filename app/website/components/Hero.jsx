@@ -13,9 +13,9 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="relative flex flex-col bg-whitelight p-5 items-center justify-between w-full h-screen md:px-16 md:flex-row">
+    <div className="relative flex flex-col bg-black p-5 items-center justify-between w-full h-screen md:px-16 md:flex-row">
       <div className="flex h-full flex-col justify-center lg:h-full">
-        <h1 className="text-6xl lg:text-7xl font-light ">
+        <h1 className="text-6xl text-white lg:text-7xl font-light ">
           Desarrollo <span className="font-bold ml-10 xl:ml-0">Web.</span>
         </h1>
         <p className="text-3xl ml-32 text-gold mt-2 xl:ml-8">Servicio.</p>
@@ -33,7 +33,7 @@ const Hero = () => {
               <div
                 key={i}
                 className={`text-${
-                  i % 2 === 0 ? "gold" : "black"
+                  i % 2 === 0 ? "gold" : "white"
                 } text-left`}
               >
                 {num}

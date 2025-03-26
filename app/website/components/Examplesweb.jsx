@@ -26,7 +26,7 @@ const items = [
 
 const Examplesweb = () => {
   return (
-    <section className="min-h-screen flex flex-col justify-center bg-whitelight ">
+    <section className="min-h-screen flex flex-col justify-center bg-white ">
       <div className="flex flex-col h-56 justify-center items-center space-y-5">
         <h1 className="text-5xl lg:text-7xl text-gray md:mr-32">¿Qué página</h1>
         <h1 className="text-2xl sm:text-4xl lg:text-5xl md:ml-32">
@@ -39,14 +39,14 @@ const Examplesweb = () => {
           {[...items, ...items].map((item, index) => (
             <div
               key={index}
-              className="flex flex-col items-center flex-shrink-0 w-[500px]"
+              className="flex flex-col items-center flex-shrink-0 lg:w-[500px]"
             >
               <Image
                 src={item.src}
                 alt={item.title}
                 width={500}
                 height={300}
-                className="rounded-lg shadow-lg w-[500px] h-[300px]"
+                className="rounded-lg shadow-lg w-[300px] h-[200px] lg:w-[500px] lg:h-[400px]"
               />
               <p className="mt-4 text-xl font-semibold">{item.title}</p>
             </div>
