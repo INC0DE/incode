@@ -40,7 +40,7 @@ const Browsedev = () => {
   const [selected, setSelected] = useState(items[0]);
   return (
     <section>
-      <div className="flex flex-col h-44 px-5 bg-whitelight justify-center items-center space-y-5 md:px-20 md:h-56">
+      <div className="flex flex-col h-44 px-5 bg-white justify-center items-center space-y-5 md:px-20 md:h-56">
         <h1 className="text-3xl sm:text-5xl lg:text-7xl text-gray">
           ¿Por qué tener
         </h1>
@@ -66,12 +66,12 @@ const Browsedev = () => {
         </div>
         <motion.div
           key={selected.id}
-          className="flex-2 bg-white p-6 w-full h-full content-center lg:w-1/2 lg:p-12 "
+          className="flex-2 p-6 w-full h-full content-center lg:w-1/2 lg:p-12 "
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.4 }}
         >
-          <motion.div className="text-xl w-full  text-center lg:text-left md:text-2xl lg:text-3xl">
+          <motion.div className="text-xl text-whitelight w-full  text-center lg:text-left md:text-2xl lg:text-3xl">
             {selected.content}
           </motion.div>
         </motion.div>

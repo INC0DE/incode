@@ -5,7 +5,7 @@ import Image from "next/image";
 const Services = () => {
   return (
     <section>
-      <div className="flex flex-col h-56 bg-whitelight justify-center items-center space-y-5 p-5">
+      <div className="flex flex-col h-56 bg-white justify-center items-center space-y-5 p-5">
         <h1 className="text-4xl  sm:text-7xl">Servicio</h1>
         <h1 className="text-lg text-center sm:text-xl sm:text-left text-gray">
           Agencia especializada en marketing digital. 

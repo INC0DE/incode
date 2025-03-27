@@ -47,8 +47,8 @@ const Strategy = () => {
   };
   return (
     <section>
-      <div className="flex flex-col h-56 bg-whitelight justify-center items-center space-y-5">
-        <h1 className="text-4xl sm:text-6xl lg:text-8xl text-gold justify-self-center">
+      <div className="flex flex-col h-56 bg-white justify-center items-center space-y-5">
+        <h1 className="text-4xl font-bold sm:text-6xl lg:text-8xl text-gold justify-self-center">
           Nuestros Managers
         </h1>
         <h1 className="text-lg sm:text-xl lg:text-3xl text-gray justify-self-center">
@@ -85,16 +85,16 @@ const Strategy = () => {
 
           <button
             onClick={prevSlide}
-            className="absolute left-2 sm:left-4 top-1/2 transform -translate-y-1/2 bg-gray p-2 sm:p-3 rounded-full shadow-lg hover:bg-black transition"
+            className="absolute left-2 sm:left-4 top-1/2 transform -translate-y-1/2 p-2 sm:p-3 rounded-full shadow-lg hover:bg-black transition"
           >
-            <ChevronLeftIcon className="h-6 w-6 sm:h-8 sm:w-8 text-white" />
+            <ChevronLeftIcon className="h-6 w-6 sm:h-8 sm:w-8 text-black" />
           </button>
 
           <button
             onClick={nextSlide}
-            className="absolute right-2 sm:right-4 top-1/2 transform -translate-y-1/2 bg-gray p-2 sm:p-3 rounded-full shadow-lg hover:bg-black transition"
+            className="absolute right-2 sm:right-4 top-1/2 transform -translate-y-1/2 p-2 sm:p-3 rounded-full shadow-lg hover:bg-black transition"
           >
-            <ChevronRightIcon className="h-6 w-6 sm:h-8 sm:w-8 text-white" />
+            <ChevronRightIcon className="h-6 w-6 sm:h-8 sm:w-8 text-black" />
           </button>
 
           <div className="flex justify-center mt-4">

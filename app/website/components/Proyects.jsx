@@ -28,11 +28,13 @@ const images = [
 
 const Proyects = () => {
   return (
-    <section className="w-full min-h-screen flex flex-col bg-whitelight items-center justify-center gap-20">
-      <h1 className="text-5xl text-center lg:text-7xl text-gray">
-        Nuestros{" "}
-        <span className="text-black text-6xl lg:text-8xl">proyectos.</span>
-      </h1>
+    <section className="w-full min-h-screen flex flex-col bg-whitelight items-center gap-20">
+      <div className="bg-white w-full h-56 content-center">
+        <h1 className="text-5xl text-center lg:text-7xl text-gray">
+          Nuestros{" "}
+          <span className="text-black text-6xl lg:text-8xl">proyectos.</span>
+        </h1>
+      </div>
 
       <div className="relative w-full flex flex-col gap-10 md:flex-row md:gap-20 md:overflow-x-auto scrollbar-hide md:p-20">
         {images.map((item, index) => (

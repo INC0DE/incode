@@ -26,8 +26,8 @@ const items = [
 
 const Examplesweb = () => {
   return (
-    <section className="min-h-screen flex flex-col justify-center bg-white ">
-      <div className="flex flex-col h-56 justify-center items-center space-y-5">
+    <section className="min-h-screen flex flex-col justify-center">
+      <div className="bg-white flex flex-col h-56 justify-center items-center space-y-5">
         <h1 className="text-5xl lg:text-7xl text-gray md:mr-32">¿Qué página</h1>
         <h1 className="text-2xl sm:text-4xl lg:text-5xl md:ml-32">
           buscas para tu negocio?

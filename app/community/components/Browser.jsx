@@ -19,8 +19,13 @@ const items = [
     id: 2,
     title: "Contenido",
     content:
-      "En un e-commerce, un diseño atractivo y funcional puede aumentar las conversiones, ya que facilita la compra y genera confianza.",
-    incluye: ["Creación de posts.", "Diseño gráfico.", "Edición de videos."],
+      "Optimizamos el contenido visualmente atractivo que impulsa tu marca. Utilizando herramientas tecnológicas para llegar a su audiencia. Creando contenido estratégico efectivo para conectar con tu audiencia y generar resultados. ",
+    incluye: [
+      "Diseñar contenido.",
+      "Composición visual.",
+      "Creación de estrategia de contenido.",
+      "Edición de contenido.",
+    ],
   },
   {
     id: 3,
@@ -62,7 +67,10 @@ const items = [
     title: "Copywriting",
     content:
       "Transformamos ideas en palabras que conectan y convierten. Creando estrategias de escritura persuasiva para las publicaciones y redactamos objetivos, asegurando que cada palabra impulse tu crecimiento.",
-    incluye: ["Estrategias de escritura para las publicaciones.", "Escritura de objetivos."],
+    incluye: [
+      "Estrategias de escritura para las publicaciones.",
+      "Escritura de objetivos.",
+    ],
   },
 ];
 

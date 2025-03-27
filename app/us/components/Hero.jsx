@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="content-center w-full min-h-screen bg-whitelight lg:flex ">
+    <section className="content-center w-full min-h-screen bg-white lg:flex ">
       <div className="flex flex-col justify-center items-center p-5 space-y-4 lg:w-1/3 lg:p-0">
         <h1 className="text-5xl md:text-6xl xl:text-8xl">INCODE</h1>
         <h1 className="text-2xl md:text-3xl xl:text-4xl">Potenciando tu marca.</h1>

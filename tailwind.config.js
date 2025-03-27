@@ -96,10 +96,10 @@ module.exports = {
           colors: {
             current: "#000000",
             primary: {
-              DEFAULT: "#f6c75e",
+              DEFAULT: "#dfb372",
               foreground: "#FFFF",
             },
-            focus: "#f6c75e",
+            focus: "##dfb372",
           },
         },
       },

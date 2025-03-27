@@ -23,7 +23,7 @@ const Intro = () => {
       </section>
 
       <section className="h-72 flex flex-col bg-black justify-center items-center space-y-5 xl:px-5 lg:flex-row lg:items-center">
-        <h1 className="text-3xl text-gold sm:text-5xl md:text-5xl xl:text-6xl lg:w-1/2">¿Qué hacemos por ti?</h1>
+        <h1 className="text-3xl text-gold font-bold sm:text-5xl md:text-5xl xl:text-6xl lg:w-1/2">¿Qué hacemos por ti?</h1>
         <p className="text-xl lg:w-1/2 text-white text-center md:text-2xl lg:text-left">
           Nuestra responsabilidad está en crear, planificar y publicar
           contenido, manteniendo una presencia activa en las plataformas

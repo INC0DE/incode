@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Addesign = () => {
   return (
-    <section className="flex flex-col-reverse items-center bg-whitelight justify-center overflow-hidden xl:flex-row lg:h-96 ">
+    <section className="flex flex-col-reverse items-center bg-white overflow-hidden xl:flex-row lg:h-96 ">
       <div className="h-full w-full sm:w-full sm:h-80 xl:h-full xl:w-1/2">
         <Image
           src="/assets/add.jpg"

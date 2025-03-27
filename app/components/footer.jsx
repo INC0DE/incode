@@ -2,7 +2,7 @@ import { FaFacebook, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <section className="flex flex-col lg:flex-row w-full h-60  justify-around items-center border-t-2 border-black rounded-xl p-6">
+    <section className="flex flex-col lg:flex-row w-full h-60  justify-around items-center border-t-2 border-black rounded-xl p-6 bg-whitelight">
       {/* Logo o Nombre */}
       <div>
         <h1 className="text-2xl">INCODE</h1>
