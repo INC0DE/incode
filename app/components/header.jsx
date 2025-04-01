@@ -24,7 +24,7 @@ export default function Header() {
   const menuItems = [
     { item: "Inicio", href: "/" },
     { item: "Website", services: "Servicio", href: "/website" },
-    { item: "Marketing", services: "Servicio", href: "/community" },
+    { item: "Community", services: "Servicio", href: "/community" },
   ];
 
   return (
@@ -37,7 +37,14 @@ export default function Header() {
 
       <NavbarBrand>
         <Link href="/">
-          <Image src="/incodelogo.png" alt="incode" width={80} height={40}  priority unoptimized={true}/>
+          <Image
+            src="/incodelogo.png"
+            alt="incode"
+            width={80}
+            height={40}
+            priority
+            unoptimized={true}
+          />
         </Link>
       </NavbarBrand>
 
